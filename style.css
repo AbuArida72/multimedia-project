@@ -1,4 +1,4 @@
-/* Reset and base */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,11 +25,10 @@ a:hover {
   color: #0056b3;
 }
 
-/* Universal Navbar/Header styles */
 header {
   background-color: #003366;
   color: white;
-  padding: 20px 40px;   /* consistent padding */
+  padding: 20px 40px;  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +36,7 @@ header {
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  font-size: 1rem;  /* consistent font size */
+  font-size: 1rem; 
 }
 
 .logo {
@@ -55,7 +54,7 @@ nav ul {
 
 nav a {
   font-weight: 600;
-  font-size: 1rem;  /* consistent font size */
+  font-size: 1rem; 
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -72,8 +71,6 @@ main {
   margin: 0 auto;
 }
 
-/* Utility Alignments */
-
 .center-content {
   text-align: center;
 }
@@ -82,7 +79,6 @@ main {
   text-align: left;
 }
 
-/* Buttons */
 .btn {
   display: inline-block;
   background-color: #007bff;
@@ -102,7 +98,6 @@ main {
   color: #007bff;
 }
 
-/* Hero Section (index) */
 .page-index .hero {
   padding: 80px 20px;
   background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
@@ -125,7 +120,6 @@ main {
   font-weight: 400;
 }
 
-/* Stats Section */
 .stats {
   display: flex;
   justify-content: center;
@@ -146,7 +140,6 @@ main {
   color: #555;
 }
 
-/* Video Intro */
 .intro-video {
   max-width: 700px;
   margin: 0 auto 80px auto;
@@ -167,7 +160,6 @@ main {
   color: #003366;
 }
 
-/* Products Page */
 .page-products main {
   max-width: 1100px;
 }
@@ -236,7 +228,7 @@ main {
 /* About Page */
 .page-about main {
   max-width: 900px;
-  padding: 20px 40px; /* added horizontal padding */
+  padding: 20px 40px;
 }
 
 .page-about h1 {
@@ -266,7 +258,6 @@ main {
   margin-left: 20px;
 }
 
-/* Audio Section inside About */
 .page-about .audio-section {
   margin-top: 30px;
   text-align: center;
@@ -279,7 +270,6 @@ main {
   outline: none;
 }
 
-/* Gallery Page */
 .page-gallery main {
   max-width: 1100px;
 }
@@ -317,7 +307,6 @@ main {
   transform: scale(1.05);
 }
 
-/* Contact Page */
 .page-contact main {
   max-width: 600px;
   padding: 20px 40px;
@@ -357,7 +346,6 @@ footer {
   font-size: 1rem;
 }
 
-/* Responsive tweaks */
 @media (max-width: 768px) {
   main {
     padding: 20px 30px;
